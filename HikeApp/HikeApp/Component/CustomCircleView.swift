@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CustomCircleView: View {
+    // MARK: PROPERTIES
     @State private var isAnimateGradinet: Bool = false
     var body: some View {
         Circle()
